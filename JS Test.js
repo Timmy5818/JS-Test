@@ -18,7 +18,13 @@ const factories = [
 `
 ``
 // 1. Count Employees Number by Factory  => [ {name: 'BR1', count: 4}, ... ]
-console.log(aArray.length)
+var factiry_count_BR1 = factories.filter(function(item, index, array) {
+    return item.name == "BR1" || array.employees;
+});
+var a = factiry_count_BR1;
+a.item.name;
+
+console.log(a);
 
 
 // 2. Count Factories Number by Employee  => [ {employee: 'John', count: 2}, ... ]
