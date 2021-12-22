@@ -43,7 +43,7 @@ console.log(counts);
 
 
 // 3. Order employees list by alphabetical order  =>   { name: "BR2", employees: ["Jessie", "John", "Karen"] }
-
+factories.forEach(element => console.log('name： ' + element.name + ', employees: ' + element.employees.sort()));
 
 // #### Assuming we have a different array
 
